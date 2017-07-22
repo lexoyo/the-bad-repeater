@@ -13,7 +13,7 @@ import speech_recognition as sr
 
 def talk(phrase):
     sys.stderr.write(phrase + "\n")
-    text_to_speech = talkey.Talkey()
+    text_to_speech = talkey.Talkey(preferred_languages=['fr', 'en'])
     text_to_speech.say(phrase)
 
 # this is called from the background thread
