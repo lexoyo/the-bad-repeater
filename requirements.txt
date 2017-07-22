@@ -1,3 +1,5 @@
 talkey
 SpeechRecognition
+PocketSphinx
+PyAudio
 
